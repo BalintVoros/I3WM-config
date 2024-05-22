@@ -1,5 +1,7 @@
 # I3WM-config(Arch based)
 ### 
+![2024-05-22-195659_1920x1080_scrot](https://github.com/BalintVoros/I3WM-config/assets/91821323/26ab6584-579f-4ba8-9fdc-b16a89473427)
+
 ![2024-05-21-184559_1920x1080_scrot](https://github.com/BalintVoros/I3WM-config/assets/91821323/c13bd1aa-c18d-4fcb-b012-94547117f7ce)
 ![2024-05-21-184633_1920x1080_scrot](https://github.com/BalintVoros/I3WM-config/assets/91821323/39e5da86-5f19-43a4-8468-36468044a11a)
 ![2024-05-21-171839_1920x1080_scrot](https://github.com/BalintVoros/I3WM-config/assets/91821323/1886a931-4e77-4118-b65e-f6b30aa20689)
