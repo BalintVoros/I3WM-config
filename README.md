@@ -34,4 +34,5 @@
 * `i3blocks/i3blocks.conf` to `~/.config/i3blocks/i3blocks.conf`
 * `neofetch/config.conf` to `~/.config/neofetch/config.conf`
 * `rofi/*` to `~/.config/rofi/config.rasi`
+* `Neovim/*` to `~/.config/nvim`
 ***
