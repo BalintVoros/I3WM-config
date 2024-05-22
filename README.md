@@ -27,6 +27,9 @@
 * [cmus](https://cmus.github.io/) (console music player)
 * [calcurse](https://www.calcurse.org/) (console calendar & scheduling application)
 ***
+### Wallpapers
+Added my wallpapers but need to change the directory in i3-config file
+***
 ## Config Directory
 * `i3/*`  to   `~/.config/i3/`
 * `i3status/*`  to   `~/.config/i3status/`
