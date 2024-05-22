@@ -19,6 +19,8 @@
 * [scrot](https://github.com/dreamer/scrot) (printscreen key)
 * [kitty](https://wiki.archlinux.org/title/kitty) (terminal emulator)
 * [neofetch](https://github.com/dylanaraps/neofetch) (command-line system information tool)
+* [Zsh](https://en.wikipedia.org/wiki/Z_shell) (Terminal shell)
+* [Oh-My-Zsh](https://ohmyz.sh/) (Zsh config)
 
 ### Optional
 * [ranger](https://github.com/ranger/ranger) (console file manager)
