@@ -19,6 +19,7 @@
 * [xdotool](https://github.com/jordansissel/xdotool) (capture windows title for i3blocks)
 * [playerctl](https://github.com/acrisci/playerctl) (multimedia key)
 * [scrot](https://github.com/dreamer/scrot) (printscreen key)
+* [flameshot](https://flameshot.org/) (Mod+Shift+S capture tool)
 * [kitty](https://wiki.archlinux.org/title/kitty) (terminal emulator)
 * [neofetch](https://github.com/dylanaraps/neofetch) (command-line system information tool)
 * [Zsh](https://en.wikipedia.org/wiki/Z_shell) (Terminal shell)
