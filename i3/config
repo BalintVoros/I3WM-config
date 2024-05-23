@@ -58,6 +58,7 @@ bindsym $mod+e exec Thunar
 
 bindsym Print exec scrot -e 'mv $f ~/Screenshotok/'
 
+bindsym $mod+Shift+s exec flameshot gui
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id rofi -show drun
 
@@ -217,15 +218,13 @@ exec_always --no-startup-id feh  --randomize --bg-fill /home/balint/Hatter/
 #Change Shortcut
 #bindsym $mod+$alt+b exec --no-startup-id feh /home/balint/Hatter/* --recursive --randomize --bg-fill
 
-#RandomWallpaper
-bindsym $mod+$alt+b exec home/$USER/.config/scripts/bing.sh
 # Shortcut for Lockscreen
 bindsym $mod+x exec /home/$USER/.config/scripts/lock
 
 # Allocate applications to workspaces
 for_window [class="Brave"] move to workspace $ws2
 for_window [class="Spotify"] move to workspace $ws4
-for_window [class="Discord"] move to workspace $ws3
+for_window [class="discord"] move to workspace $ws3
 # Transperency with picom compositor
 exec_always picom -f 
 
