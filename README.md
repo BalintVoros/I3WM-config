@@ -6,7 +6,6 @@
 ![2024-05-21-184633_1920x1080_scrot](https://github.com/BalintVoros/I3WM-config/assets/91821323/39e5da86-5f19-43a4-8468-36468044a11a)
 ![2024-05-21-171839_1920x1080_scrot](https://github.com/BalintVoros/I3WM-config/assets/91821323/1886a931-4e77-4118-b65e-f6b30aa20689)
 
-![2024-05-21-184658_1920x1080_scrot](https://github.com/BalintVoros/I3WM-config/assets/91821323/8a5284f4-0259-42d5-b2fe-b379bd25a471)
 
 ***
 
