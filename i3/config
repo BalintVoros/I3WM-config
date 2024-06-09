@@ -27,7 +27,7 @@ exec --no-startup-id xset b off
 # they are included here as an example. Modify as you see fit.
 bindsym $mod+Ctrl+Up exec /home/balint/.config/scripts/increase_brightness.sh
 bindsym $mod+Ctrl+Down exec /home/balint/.config/scripts/decrease_brightness.sh
-
+for_window [class="Yad"] floating enable
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
@@ -54,7 +54,8 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym $mod+Return exec kitty
 
-# kill focused window
+exec --no-startup-id /home/balint/.config/scripts/update.sh
+# kill focused window
 bindsym $mod+q kill
 
 bindsym $mod+e exec Thunar
@@ -197,7 +198,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3blocks -c /home/$USER/.config/i3blocks/i3blocks.conf
-  position top
+  position bottom
 i3bar_command i3bar --transparency
 	tray_output none
 	font pango: FontAwesome 12
@@ -380,5 +381,4 @@ mode "$mode_gaps_left" {
         bindsym Return mode "$mode_gaps"
         bindsym Escape mode "default"
 }
-
 
