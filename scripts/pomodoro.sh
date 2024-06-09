@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Config variables
-work_time=1500
-break_time=300
+work_time=3600
+break_time=600
 
-msg_start="[Pomodoro Start]"
-work_prefix="[Working] "
-break_prefix="[Break] "
+msg_start="[P]"
+work_prefix="[W] "
+break_prefix="[B] "
 
 start_color="#b39df3"
 break_color="#a7df78"
