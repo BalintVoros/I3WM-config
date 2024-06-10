@@ -1,7 +1,6 @@
 #!/bin/bash
 
 #Automated installer
-mkdir /home/$USER/Wallpapers
 sudo cp -r i3/   /home/$USER/.config/i3/
 sudo cp  -r i3blocks/ /home/$USER/.config/i3blocks/
 sudo cp  -r i3status/ /home/$USER/.config/i3status/
