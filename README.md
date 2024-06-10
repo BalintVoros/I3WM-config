@@ -1,9 +1,7 @@
 # I3WM-config(Arch based)
 ### 
-![2024-05-22-195659_1920x1080_scrot](https://github.com/BalintVoros/I3WM-config/assets/91821323/26ab6584-579f-4ba8-9fdc-b16a89473427)
-![image](https://github.com/BalintVoros/I3WM-config/assets/91821323/67c47349-e009-4d0d-b296-e51a691e5568)
-
-![2024-05-21-184633_1920x1080_scrot](https://github.com/BalintVoros/I3WM-config/assets/91821323/39e5da86-5f19-43a4-8468-36468044a11a)
+![image](https://github.com/BalintVoros/I3WM-config/assets/91821323/5bb06955-0968-4df1-8ba7-fa5a0b200a47)
+![image](https://github.com/BalintVoros/I3WM-config/assets/91821323/06262e2a-b135-4051-83bd-800068316391)
 ![2024-05-21-171839_1920x1080_scrot](https://github.com/BalintVoros/I3WM-config/assets/91821323/1886a931-4e77-4118-b65e-f6b30aa20689)
 
 
@@ -13,7 +11,7 @@
 * [i3-gaps](https://github.com/Airblader/i3)  (gaps around windows)
 * [feh](https://feh.finalrewind.org/)   (image viewer + wallpaper changer)
 * [rofi](https://github.com/DaveDavenport/rofi)   (dmenu replacement)
-* [Kora](https://font.download/font/kora-kora) (icon font for i3blocks)
+* [Kora](https://font.download/font/kora-kora) (icon theme for i3blocks)
 * [Nordic](https://github.com/EliverLara/Nordic) (theme for i3wm)
 * [xdotool](https://github.com/jordansissel/xdotool) (capture windows title for i3blocks)
 * [playerctl](https://github.com/acrisci/playerctl) (multimedia key)
