@@ -28,7 +28,7 @@ exec --no-startup-id xset b off
 bindsym $mod+Ctrl+Up exec /home/balint/.config/scripts/increase_brightness.sh
 bindsym $mod+Ctrl+Down exec /home/balint/.config/scripts/decrease_brightness.sh
 for_window [class="Yad"] floating enable
-
+for_window [class="^.*"] border pixel 0
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
@@ -198,7 +198,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3blocks -c /home/$USER/.config/i3blocks/i3blocks.conf
-  position bottom
+  position top
 i3bar_command i3bar --transparency
 	tray_output none
 	font pango: FontAwesome 12
@@ -381,5 +381,4 @@ mode "$mode_gaps_left" {
         bindsym Return mode "$mode_gaps"
         bindsym Escape mode "default"
 }
-
 
