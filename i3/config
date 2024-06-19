@@ -18,15 +18,16 @@ font pango:FontAwesome 14
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
-
+set $MYBROWSER brave 
+set $term kitty
+set $SCRIPT /home/balint/.config/scripts/
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xset b off
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
-bindsym $mod+Ctrl+Up exec /home/balint/.config/scripts/increase_brightness.sh
-bindsym $mod+Ctrl+Down exec /home/balint/.config/scripts/decrease_brightness.sh
+
 for_window [class="Yad"] floating enable
 for_window [class="^.*"] border pixel 0
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
@@ -52,13 +53,18 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec $term
+bindsym $mod+b exec --no-startup-id $MYBROWSER
+bindsym $mod+ctrl+b exec --no-startup-id $MYBROWSER --incognito
+bindsym $mod+n exec kitty calcurse
+#
 
 exec --no-startup-id /home/balint/.config/scripts/update.sh
 # kill focused window
 bindsym $mod+q kill
 
-bindsym $mod+e exec Thunar
+bindsym $mod+e exec kitty ranger
+
 
 bindsym Print exec scrot -e 'mv $f ~/Screenshotok/'
 
@@ -129,10 +135,10 @@ bindsym $mod+0 mode "$mode_system"
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1: "
 set $ws2 "2: "
-set $ws3 "3:"
+set $ws3 "3:"
 set $ws4 "4:"
-set $ws5 "5:"
-set $ws6 "6"
+set $ws5 "5:"
+set $ws6 "6":
 set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
@@ -199,14 +205,14 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3blocks -c /home/$USER/.config/i3blocks/i3blocks.conf
   position top
-i3bar_command i3bar --transparency
+i3bar_command i3bar 
 	tray_output none
 	font pango: FontAwesome 12
 	colors {
-		background $bar-color
-		separator #191919
+		focused_workspace  #4c7899 #285577 #ffffff
+		background #0e1a29
+    separator #191919
 		#			border		background	text
-		focused_workspace	$focused-ws	$focused-ws	$text
 		inactive_workspace	$in-bgcolor	$in-bgcolor	$text
 		urgent_workspace	$u-bgcolor	$u-bgcolor	$text	
 
@@ -381,4 +387,3 @@ mode "$mode_gaps_left" {
         bindsym Return mode "$mode_gaps"
         bindsym Escape mode "default"
 }
-
