@@ -23,7 +23,7 @@ makepkg -si
 cd ..
  
 sudo pacman -R i3lock
-sudo pacman -S acpi bluez-utils bluez blueman qbittorrent zsh lxappearance yad thunar
+sudo pacman -S acpi bluez-utils bluez blueman qbittorrent zsh lxappearance yad thunar ranger
 sudo pacman -S flameshot scrot feh picom kitty rofi libreoffice neovim neofetch
 sudo pacman -S pulseaudio-alsa pulseaudio-bluetooth pulseaudio-equalizer pulseaudio-jack alsa-utils playerctl yad
 sudo pacman -R xterm
