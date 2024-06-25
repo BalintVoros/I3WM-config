@@ -23,7 +23,7 @@ makepkg -si
 cd ..
  
 sudo pacman -R i3lock
-sudo pacman -S acpi bluez-utils bluez blueman qbittorrent zsh lxappearance yad thunar ranger
+sudo pacman -S acpi bluez-utils bluez blueman qbittorrent zsh lxappearance yad thunar ranger xournalpp
 sudo pacman -S flameshot scrot feh picom kitty rofi libreoffice neovim neofetch
 sudo pacman -S pulseaudio-alsa pulseaudio-bluetooth pulseaudio-equalizer pulseaudio-jack alsa-utils playerctl yad
 sudo pacman -R xterm
@@ -31,6 +31,7 @@ yay -S spotify
 yay -S i3lock-color
 sudo yay -S discord
 yay -S  brave-bin
+yay -S freetube
 sudo cp -R capitaine-cursors /usr/share/icons
 sudo cp -R kora-grey /usr/share/icons
 sudo cp -R VALYRIAN-Total-Steel /usr/share/themes
@@ -51,5 +52,6 @@ sudo chmod +x *
 
 
 sudo systemctl start bluetooth
+sudo systemctl enable bluetooth
 
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
